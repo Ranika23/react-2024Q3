@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: rgba(249, 237, 237, 0.811);
+  background-color: #41504e;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: 310px;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  background-color: #393939;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  border-color: #8a8a8a;
+}
